@@ -1,0 +1,9 @@
+{
+    "presets": [["@babel/preset-env", { "targets": { "chrome": "last 4 version" } }]],
+    "plugins": [
+        ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
+        "@babel/plugin-proposal-throw-expressions",
+        "@babel/plugin-proposal-do-expressions",
+        "@babel/plugin-proposal-class-properties"
+    ]
+}

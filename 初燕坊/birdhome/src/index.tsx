@@ -1,11 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
+import App from './App'
 
-const render = () =>{
-    ReactDOM.render(
-        <div>123</div>,
-        document.querySelector('#app')
-    )
-}
-
-render()
+render(<App />, document.querySelector('#app'))
