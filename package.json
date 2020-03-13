@@ -1,0 +1,25 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjhyy/react-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjhyy/react-practice/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  },
+  "homepage": "https://github.com/cjhyy/react-practice#readme"
+}
